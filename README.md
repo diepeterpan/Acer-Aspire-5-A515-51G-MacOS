@@ -26,8 +26,6 @@ Use this OpenCore EFI to run MacOS Big Sur on Acer Aspire 5 A515-51G (2018)
   
 - Ensure to edit the **config.plist** and add valid  **PlatformInfo Generic** and **SMBIOS** values
 
-  <img src="Image1.png"/>
-
 - Install **Captin.dmg** to have a Caps Lock indicator on screen
 
 - Install **ComboJack** to assist with Headphones / Headset
