@@ -1,5 +1,5 @@
-# Acer-Aspire-5-A515-51G-MacOS-Big-Sur
-Use this OpenCore EFI to run MacOS Big Sur on Acer Aspire 5 A515-51G (2018) 
+# Acer-Aspire-5-A515-51G-MacOS
+Use this OpenCore EFI to run MacOS on Acer Aspire 5 A515-51G (2018) 
 
 ## Configuration
 
