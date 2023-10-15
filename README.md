@@ -1,5 +1,5 @@
 # Acer-Aspire-5-A515-51G-MacOS
-Use this OpenCore EFI to run **MacOS Sonoma Beta 5** on Acer Aspire 5 A515-51G (2018) 
+Use this OpenCore EFI to run **MacOS Sonoma** on Acer Aspire 5 A515-51G (2018) 
 
 ## Configuration
 
@@ -24,7 +24,7 @@ Use this OpenCore EFI to run **MacOS Sonoma Beta 5** on Acer Aspire 5 A515-51G (
   
 - Ensure to edit the **config.plist** and add valid  **PlatformInfo Generic** and **SMBIOS** values
 
-- Install **Captin.dmg** to have a Caps Lock indicator on the screen
+- Install **Captin.dmg** - to have a Caps Lock indicator on the screen - get latest version from here https://captin.mystrikingly.com/
 
 - Install **ComboJack** to assist with Headphones / Headset
 
