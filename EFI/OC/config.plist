@@ -66,7 +66,7 @@
 				<key>Comment</key>
 				<string>Add PMCR device</string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>Path</key>
 				<string>SSDT-PMCR.aml</string>
 			</dict>
@@ -404,6 +404,8 @@
 			<true/>
 			<key>EnableWriteUnprotector</key>
 			<true/>
+			<key>FixupAppleEfiImages</key>
+			<false/>
 			<key>ForceBooterSignature</key>
 			<false/>
 			<key>ForceExitBootServices</key>
@@ -556,7 +558,7 @@
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x1C,0x5)/Pci(0x0,0x0)</key>
 			<dict>
-				<key>AAPL,slot-name</key>
+								<key>AAPL,slot-name</key>
 				<string>Internal@0,28,5/0,0</string>
 				<key>built-in</key>
 				<data>AQ==</data>
@@ -902,7 +904,7 @@
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/NullEthernet</string>
 				<key>MaxKernel</key>
@@ -1308,7 +1310,7 @@
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
 			</dict>
-		</array>
+					</array>
 		<key>Block</key>
 		<array/>
 		<key>Emulate</key>
@@ -1979,6 +1981,8 @@
 			<key>ResizeGpuBars</key>
 			<integer>-1</integer>
 			<key>ResizeUsePciRbIo</key>
+			<false/>
+			<key>ShimRetainProtocol</key>
 			<false/>
 			<key>TscSyncTimeout</key>
 			<integer>0</integer>
