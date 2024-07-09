@@ -1,5 +1,5 @@
 # Acer-Aspire-5-A515-51G-MacOS
-Use this OpenCore EFI to run **MacOS Sonoma** on Acer Aspire 5 A515-51G (2018) 
+Use this OpenCore EFI to run **MacOS Sequoia Beta 2** on Acer Aspire 5 A515-51G (2018) 
 
 ## Configuration
 
