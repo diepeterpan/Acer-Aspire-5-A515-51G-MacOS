@@ -1,5 +1,5 @@
 # Acer-Aspire-5-A515-51G-MacOS
-Use this OpenCore EFI to run **MacOS Sequoia Beta 2** on Acer Aspire 5 A515-51G (2018) 
+Use this OpenCore EFI to run **MacOS Tahoe 26.1** on Acer Aspire 5 A515-51G (2018) 
 
 ## Configuration
 
@@ -26,7 +26,7 @@ Use this OpenCore EFI to run **MacOS Sequoia Beta 2** on Acer Aspire 5 A515-51G 
 
 - Install **Captin.dmg** - to have a Caps Lock indicator on the screen - get latest version from here https://captin.mystrikingly.com/
 
-- Install **ComboJack** to assist with Headphones / Headset
+- ~~Install **ComboJack** to assist with Headphones / Headset~~
 
 - **Intel AX210** running in Ethernet mode
   - *iServices* (messages, facetime **IS** working)
@@ -35,4 +35,8 @@ Use this OpenCore EFI to run **MacOS Sequoia Beta 2** on Acer Aspire 5 A515-51G 
 
 - **Apple Watch** unlock is not consistent but seems to be a generic problem on Hackintoshes
 
-- **2.4 GHz Wifi interference** with Bluetooth (mostly Bluetooth audio) also seems to be a common problem
+- **2.4 GHz Wifi interference** with Bluetooth (_mostly Bluetooth audio_) also seems to be a common problem
+
+- Install **[VoodooHDA](https://github.com/chris1111/VoodooHDA-Tahoe)** for audio under Tahoe, now the built-in mic is also working
+
+- USB mapped correctly this time via **USBMap.kext**
